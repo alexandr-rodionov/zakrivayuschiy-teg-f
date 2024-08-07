@@ -382,10 +382,7 @@
   filter: saturate(2.5) hue-rotate(-60deg) contrast(1.1);
 }
 
-
-
 /* /image filter*/
-
 
 @media (width <= 375px) {
   .card__image-block {
