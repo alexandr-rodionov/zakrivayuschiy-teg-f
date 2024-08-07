@@ -8,7 +8,8 @@
   box-sizing: border-box;
 }
 
-body {
+body,
+figure {
   margin: 0;
 }
 
@@ -21,7 +22,8 @@ h6,
 p,
 ul,
 ol,
-li {
+li,
+button {
   margin: 0;
   padding: 0;
 }
@@ -33,8 +35,9 @@ a {
 button,
 input {
   color: currentColor;
-  font-family: inherit;
-  font-size: inherit;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
 }
 
 ul,
