@@ -94,7 +94,7 @@
 .header__title-text {
   font-family: var(--accent-font, Verdana, sans-serif);
   font-weight: var(--main-text-weight);
-  font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);;
+  font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
   text-transform: uppercase;
 }
 
