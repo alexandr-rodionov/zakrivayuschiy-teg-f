@@ -30,10 +30,10 @@
   </head>
   <body class="page">
     <header class="header content-section">
-      <h1 class="header__title">
-        &lt;/HTML&gt;
-        <span class="header__title-text">закрывающий тег</span>
-      </h1>
+      <div class="header__title-block">
+        <a class="header__logo">&lt;/html&gt;</a>
+        <h1 class="header__title">закрывающий тег</h1>
+      </div>
       <nav class="theme-menu header__theme-menu">
         <!-- Не меняйте разметку этого списка, иначе скрипты перестанут работать -->
         <ul class="theme-menu__list">
@@ -65,15 +65,15 @@
         <h2 class="card__title">
           Фритрек и&nbsp;нулевой спринт: Подготовка к&nbsp;работе
         </h2>
-        <figure class="card__image-block">
-          <figcaption class="card__image-caption">&lt;/HTML&gt;</figcaption>
+        <div class="card__image-block">
+          <span class="card__image-caption">&lt;/html&gt;</span>
           <img
             class="card__image color__invert"
             src="https://images.unsplash.com/photo-1488998427799-e3362cec87c3?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt="Фотография зписной книжки с карандашом на столе"
+            alt="Фотография записной книжки с карандашом на столе"
             loading="lazy"
           />
-        </figure>
+        </div>
         <div class="card__content-block">
           <div class="card__text-block">
             <p>
@@ -93,7 +93,7 @@
 
             <!--heart-->
 
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg
                 class="like-icon"
                 viewBox="0 0 39 36"
@@ -144,7 +144,7 @@
                     33H21V36H18V33ZM9 27H12V30H9V27ZM24
                     0H27V3H24V0ZM33 3H36V6H33V3ZM3 3H6V6H3V3ZM12
                     0H15V3H12V0ZM0 13H3V16H0V13Z"
-                    fill="var(--fill-color)"
+                    fill="var(--fill-color, #f00)"
                   />
               </svg>
             </button>
@@ -161,15 +161,15 @@
         <h2 class="card__title">
           1&nbsp;спринт: Я&nbsp;&mdash; чистый лист
         </h2>
-        <figure class="card__image-block">
-          <figcaption class="card__image-caption">&lt;/HTML&gt;</figcaption>
+        <div class="card__image-block">
+          <span class="card__image-caption">&lt;/html&gt;</span>
           <img
             class="card__image color__hue-brightness"
             src="https://plus.unsplash.com/premium_photo-1681160405580-a68e9c4707f9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGN8ZW58MHx8MHx8fDA%3D"
             alt="Фото ноутбука с белым экраном"
             loading="lazy"
           />
-        </figure>
+        </div>
         <div class="card__content-block">
           <div class="card__text-block">
             <p>
@@ -191,7 +191,7 @@
 
             <!--heart-->
 
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg
                 class="like-icon"
                 viewBox="0 0 39 36"
@@ -242,7 +242,7 @@
                     33H21V36H18V33ZM9 27H12V30H9V27ZM24
                     0H27V3H24V0ZM33 3H36V6H33V3ZM3 3H6V6H3V3ZM12
                     0H15V3H12V0ZM0 13H3V16H0V13Z"
-                    fill="var(--fill-color)"
+                    fill="var(--fill-color, #f00)"
                   />
               </svg>
             </button>
@@ -259,15 +259,15 @@
         <h2 class="card__title">
           1&nbsp;спринт: А&nbsp;если не&nbsp;получится?
         </h2>
-        <figure class="card__image-block">
-          <figcaption class="card__image-caption">&lt;CSS&gt;</figcaption>
+        <div class="card__image-block">
+          <span class="card__image-caption">&lt;css&gt;</span>
           <img
             class="card__image color__saturate"
             src="https://plus.unsplash.com/premium_photo-1683749805319-2c481ae54bc1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8d2lufGVufDB8fDB8fHww"
             alt="Фото маленькового кубка в руках"
             loading="lazy"
           />
-        </figure>
+        </div>
         <div class="card__content-block">
           <div class="card__text-block">
             <p>
@@ -286,7 +286,7 @@
 
             <!--heart-->
 
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg
                 class="like-icon"
                 viewBox="0 0 39 36"
@@ -337,7 +337,7 @@
                     33H21V36H18V33ZM9 27H12V30H9V27ZM24
                     0H27V3H24V0ZM33 3H36V6H33V3ZM3 3H6V6H3V3ZM12
                     0H15V3H12V0ZM0 13H3V16H0V13Z"
-                    fill="var(--fill-color)"
+                    fill="var(--fill-color, #f00)"
                   />
               </svg>
             </button>
@@ -354,15 +354,15 @@
         <h2 class="card__title">
           2&nbsp;спринт: Погоня за&nbsp;идеалом
         </h2>
-        <figure class="card__image-block">
-          <figcaption class="card__image-caption">&lt;desigions&gt;</figcaption>
+        <div class="card__image-block">
+          <span class="card__image-caption">&lt;desigions&gt;</span>
           <img
             class="card__image color__sepia"
             src="https://images.unsplash.com/photo-1705493253575-e911888621ff?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyZmVjdGlvbmlzbXxlbnwwfHwwfHx8MA%3D%3D"
             alt="Фото аккуратно разложенной ткани"
             loading="lazy"
           />
-        </figure>
+        </div>
         <div class="card__content-block">
           <div class="card__text-block">
             <p>
@@ -384,7 +384,7 @@
 
             <!--heart-->
 
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg
                 class="like-icon"
                 viewBox="0 0 39 36"
@@ -435,7 +435,7 @@
                     33H21V36H18V33ZM9 27H12V30H9V27ZM24
                     0H27V3H24V0ZM33 3H36V6H33V3ZM3 3H6V6H3V3ZM12
                     0H15V3H12V0ZM0 13H3V16H0V13Z"
-                    fill="var(--fill-color)"
+                    fill="var(--fill-color, #f00)"
                   />
               </svg>
             </button>
@@ -452,15 +452,15 @@
         <h2 class="card__title">
           2&nbsp;спринт: О&nbsp;тех, кто рядом
         </h2>
-        <figure class="card__image-block">
-          <figcaption class="card__image-caption">care</figcaption>
+        <div class="card__image-block">
+          <span class="card__image-caption">care</span>
           <img
             class="card__image color__contrast"
             src="https://plus.unsplash.com/premium_photo-1661302884827-5d0474877b5f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8c2hha2UlMjBoYW5kc3xlbnwwfHwwfHx8MA%3D%3D"
             alt="Фото людей пожимающих друг другу руку"
             loading="lazy"
           />
-        </figure>
+        </div>
         <div class="card__content-block">
           <div class="card__text-block">
             <p>
@@ -482,7 +482,7 @@
 
             <!--heart-->
 
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg
                 class="like-icon"
                 viewBox="0 0 39 36"
@@ -533,7 +533,7 @@
                     33H21V36H18V33ZM9 27H12V30H9V27ZM24
                     0H27V3H24V0ZM33 3H36V6H33V3ZM3 3H6V6H3V3ZM12
                     0H15V3H12V0ZM0 13H3V16H0V13Z"
-                    fill="var(--fill-color)"
+                    fill="var(--fill-color, #f00)"
                   />
               </svg>
             </button>
@@ -550,15 +550,15 @@
         <h2 class="card__title">
           3&nbsp;спринт: Обходные стратегии
         </h2>
-        <figure class="card__image-block">
-          <figcaption class="card__image-caption">&lt;support&gt;</figcaption>
+        <div class="card__image-block">
+          <span class="card__image-caption">&lt;support&gt;</span>
           <img
             class="card__image color__grayscale"
             src="https://images.unsplash.com/photo-1532622785990-d2c36a76f5a6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3RyYXRlZ3l8ZW58MHx8MHx8fDA%3D"
             alt="Фото доски, на которой рисуют план действий"
             loading="lazy"
           />
-        </figure>
+        </div>
         <div class="card__content-block">
           <div class="card__text-block">
             <p>
@@ -576,7 +576,7 @@
 
             <!--heart-->
 
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg
                 class="like-icon"
                 viewBox="0 0 39 36"
@@ -627,7 +627,7 @@
                     33H21V36H18V33ZM9 27H12V30H9V27ZM24
                     0H27V3H24V0ZM33 3H36V6H33V3ZM3 3H6V6H3V3ZM12
                     0H15V3H12V0ZM0 13H3V16H0V13Z"
-                    fill="var(--fill-color)"
+                    fill="var(--fill-color, #f00)"
                   />
               </svg>
             </button>
@@ -644,15 +644,15 @@
         <h2 class="card__title">
           3&nbsp;спринт: Когда опускаются руки
         </h2>
-        <figure class="card__image-block">
-          <figcaption class="card__image-caption">&lt;lifes-style: none;&gt;</figcaption>
+        <div class="card__image-block">
+          <span class="card__image-caption">&lt;lifes-style: none;&gt;</span>
           <img
             class="card__image color__hue"
             src="https://plus.unsplash.com/premium_photo-1661573097323-c6be3b00290e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bXVsdGl0YXNraW5nfGVufDB8fDB8fHww"
             alt="Фото мужчины с ноутбуком"
             loading="lazy"
           />
-        </figure>
+        </div>
         <div class="card__content-block">
           <div class="card__text-block">
             <p>
@@ -671,7 +671,7 @@
 
             <!--heart-->
 
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg
                 class="like-icon"
                 viewBox="0 0 39 36"
@@ -722,7 +722,7 @@
                     33H21V36H18V33ZM9 27H12V30H9V27ZM24
                     0H27V3H24V0ZM33 3H36V6H33V3ZM3 3H6V6H3V3ZM12
                     0H15V3H12V0ZM0 13H3V16H0V13Z"
-                    fill="var(--fill-color)"
+                    fill="var(--fill-color, #f00)"
                   />
               </svg>
             </button>
@@ -739,15 +739,15 @@
         <h2 class="card__title">
           &laquo;Сейчас я&nbsp;здесь&raquo;
         </h2>
-        <figure class="card__image-block">
-          <figcaption class="card__image-caption">&lt;experience&gt;</figcaption>
+        <div class="card__image-block">
+          <span class="card__image-caption">&lt;experience&gt;</span>
           <img
             class="card__image сolor__sturate-hue-contrast"
             src="https://plus.unsplash.com/premium_photo-1679355750936-77b24a624ed2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8dW5pdmVyc3xlbnwwfHwwfHx8MA%3D%3D"
             alt="Фото большого кластера красных и синих звезд"
             loading="lazy"
           />
-        </figure>
+        </div>
         <div class="card__content-block">
           <div class="card__text-block">
             <p>
@@ -767,7 +767,7 @@
 
             <!--heart-->
 
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg
                 class="like-icon"
                 viewBox="0 0 39 36"
@@ -818,7 +818,7 @@
                     33H21V36H18V33ZM9 27H12V30H9V27ZM24
                     0H27V3H24V0ZM33 3H36V6H33V3ZM3 3H6V6H3V3ZM12
                     0H15V3H12V0ZM0 13H3V16H0V13Z"
-                    fill="var(--fill-color)"
+                    fill="var(--fill-color, #f00)"
                   />
               </svg>
             </button>
@@ -831,40 +831,34 @@
           </div>
         </div>
       </article>
-    </main>
-
-    <!-- footer -->
-
-    <footer class="footer">
       <button
         type="button"
         onclick="window['dialog-id'].showModal()"
         aria-controls="dialog-id"
-        class="button footer__save-button"
+        class="button save-button"
       >
         <svg class="floppy__icon" viewBox="0 0 28 28">
           <use href="./svg/floppy.svg#floppy" class="floppy" />
         </svg>
-        <span class="button__text">Сохранить на память</span>
+        <span class="button__text">Сохранить на&nbsp;память</span>
       </button>
-    </footer>
-
-    <!-- /footer -->
+    </main>
 
     <dialog id="dialog-id" class="dialog">
       <div class="dialog__content-block">
         <svg class="dialog__icon" viewBox="0 0 28 28">
           <use href="./svg/floppy.svg#floppy" class="floppy"/>
         </svg>
-        <h2 class="dialog__title">Вставьте дискету, чтобы продолжить</h2>
+        <h2 class="dialog__title">Вставьте дискету,&nbsp;чтобы продолжить</h2>
       </div>
-      <button
-        type="button"
-        onclick="window['dialog-id'].close()"
-        class="button dialog__close-button"
-      >
-        <span class="button__text">ок</span>
-      </button>
+      <form method="dialog">
+        <button
+          type="submit"
+          class="button dialog__close-button"
+        >
+          <span class="button__text">ок</span>
+        </button>
+      </form>
     </dialog>
 
     <script src="./scripts/like.js"></script>

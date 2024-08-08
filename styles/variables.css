@@ -13,5 +13,5 @@
     linear-gradient(#e7e7e7 0.01%, #1a1a1a);
   --button-text-color: var(--main-color);
   --contour-color: var(--accent-color);
-  --fill-color: #ff0000;
+  --fill-color: #f00;
 }
